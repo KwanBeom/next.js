@@ -1,3 +1,9 @@
-export default function Template({ children }: { children: React.ReactNode }) {
-  return <div className="border border-gray-500">{children}</div>;
-}
+const DashboardTemplate = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <div className="border border-green-500 border-dashed">
+      {children} its dashboard template
+    </div>
+  );
+};
+
+export default DashboardTemplate;

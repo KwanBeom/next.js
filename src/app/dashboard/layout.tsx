@@ -5,10 +5,10 @@ export default function DashboardLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      <footer>
-        <span>footer</span>
-      </footer>
+      <body>
+        <header>its dashboard layout</header>
+        {children}
+      </body>
     </html>
   );
 }
