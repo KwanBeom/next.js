@@ -1,9 +1,18 @@
+'use client';
+import Link from 'next/link';
+
 export default function Home() {
+  const routing = () => {
+    window.history.pushState(null, '', '/dashboard');
+  };
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        app page
-      </div>
-    </main>
+    <>
+      <Link href="/dashboard">대시보드 페이지로 이동</Link>
+      <br />
+      <Link href="link">라우팅 테스트 페이지로 이동</Link>
+      <br />
+      <Link href="link/historyapi">히스토리 api 사용하기</Link>
+    </>
   );
 }
