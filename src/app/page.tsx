@@ -11,6 +11,8 @@ export default function Home() {
       <Link href="link/historyapi">히스토리 api 사용하기</Link>
       <br />
       <Link href="errorHandling">에러 핸들링 페이지로 이동</Link>
+      <br />
+      <Link href="loading">로딩 UI 페이지로 이동</Link>
     </>
   );
 }
