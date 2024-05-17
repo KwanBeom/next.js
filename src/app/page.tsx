@@ -15,6 +15,8 @@ export default function Home() {
       <Link href="loading">로딩 UI 페이지로 이동</Link>
       <br />
       <Link href="redirect">리다이렉트 페이지로 이동</Link>
+      <br />
+      <Link href="routegroup">라우트 그룹 페이지로 이동</Link>
     </>
   );
 }
