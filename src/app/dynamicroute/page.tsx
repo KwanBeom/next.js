@@ -10,6 +10,8 @@ const Page = () => {
       <Link href="dynamicroute/staticparams">
         정적 매개변수를 사용한 라우팅으로 이동
       </Link>
+      <br />
+      <Link href="dynamicroute/catchall">catch-all 라우팅으로 이동</Link>
     </>
   );
 };
