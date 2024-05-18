@@ -1,25 +1,15 @@
 'use client';
 
-import { redirect, useRouter } from 'next/navigation';
-import { useState } from 'react';
+import Link from 'next/link';
 
 const Page = () => {
-  const [value, setValue] = useState('');
-  const router = useRouter();
-  const handleClick = () => {
-    router.push(`dynamicroute/${value}`);
-  };
-
   return (
     <>
-      <input
-        type="text"
-        placeholder="아무 값이나 입력해용"
-        onChange={e => setValue(e.target.value)}
-      />
-      <button type="button" onClick={handleClick}>
-        이동
-      </button>
+      <Link href="dynamicroute/basic">가장 기본적인 동적 라우팅으로 이동</Link>
+      <br />
+      <Link href="dynamicroute/staticparams">
+        정적 매개변수를 사용한 라우팅으로 이동
+      </Link>
     </>
   );
 };
