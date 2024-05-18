@@ -11,7 +11,8 @@ export default function Home() {
       <Link href="loading">로딩 UI 페이지로 이동</Link> <br />
       <Link href="redirect">리다이렉트 페이지로 이동</Link> <br />
       <Link href="routegroup">라우트 그룹 페이지로 이동</Link> <br />
-      <Link href="dynamicroute">동적 라우팅 페이지로 이동</Link>
+      <Link href="dynamicroute">동적 라우팅 페이지로 이동</Link> <br />
+      <Link href="dynamicroute2">동적 라우팅2(optional catch all) 페이지로 이동</Link>
     </>
   );
 }

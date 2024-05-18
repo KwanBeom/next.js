@@ -12,6 +12,10 @@ const Page = () => {
       </Link>
       <br />
       <Link href="dynamicroute/catchall">catch-all 라우팅으로 이동</Link>
+      <br />
+      <Link href="dynamicroute/optionalcatchall">
+        optional catch-all 라우팅으로 이동
+      </Link>
     </>
   );
 };
